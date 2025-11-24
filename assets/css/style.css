@@ -334,3 +334,30 @@ body {
     margin-bottom: 10px;
     color: #d8ecff;
 }
+.contact-form label {
+    font-size: 18px;
+    color: #00e5ff;
+    margin-top: 15px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid #00a8ff;
+    background: rgba(5,5,5,0.8);
+    color: #e6f1ff;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00e5ff;
+    box-shadow: 0 0 15px #00e5ff;
+}
+
