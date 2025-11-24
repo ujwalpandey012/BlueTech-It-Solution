@@ -12,7 +12,7 @@
 body {
     background: #050505;
     font-family: 'Orbitron', sans-serif;
-    color: #e6f1ff;
+    color: #ffffff;
     overflow-x: hidden;
 }
 
@@ -32,20 +32,20 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    border: 2px solid #00a8ff;
-    box-shadow: 0 0 15px #00a8ff;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 15px #ffffff;
     z-index: 1000;
     animation: neon-glow 3s infinite ease-in-out;
 }
 
 @keyframes neon-glow {
-    0% { box-shadow: 0 0 8px #00a8ff; }
-    50% { box-shadow: 0 0 20px #00e5ff; }
-    100% { box-shadow: 0 0 8px #00a8ff; }
+    0% { box-shadow: 0 0 8px #ffffff; }
+    50% { box-shadow: 0 0 20px #ffffff; }
+    100% { box-shadow: 0 0 8px #ffffff; }
 }
 
 .neon-nav nav a {
-    color: #e6f1ff;
+    color: #ffffff;
     margin-left: 25px;
     text-decoration: none;
     font-size: 15px;
@@ -53,16 +53,16 @@ body {
 }
 
 .neon-nav nav a:hover {
-    color: #00e5ff;
-    text-shadow: 0 0 12px #00e5ff;
+    color: #ffffff;
+    text-shadow: 0 0 12px #ffffff;
 }
 
 /* LOGO */
 .logo {
-    color: #00a8ff;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 800;
-    text-shadow: 0 0 10px #00a8ff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 /* HERO SECTION */
@@ -95,37 +95,38 @@ body {
 .neon-text {
     font-size: 60px;
     font-weight: 800;
-    color: #00a8ff;
-    text-shadow: 0 0 20px #00a8ff, 0 0 40px #00e5ff;
+    color: #ffffff;
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
 }
 
 .hero-tagline {
     font-size: 18px;
     margin-top: 10px;
-    color: #e6f1ff;
-    text-shadow: 0 0 10px #009bdc;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 /* NEON BUTTON */
 .neon-button {
     margin-top: 25px;
     padding: 12px 35px;
-    border: 2px solid #00a8ff;
+    border: 2px solid #ffffff;
     border-radius: 8px;
-    color: #e6f1ff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     display: inline-block;
     transition: 0.3s ease;
-    box-shadow: 0 0 10px #00a8ff;
+    box-shadow: 0 0 10px #ffffff;
 }
 
 .neon-button:hover {
-    background: #00a8ff;
-    box-shadow: 0 0 20px #00e5ff;
+    background: #ffffff;
+    color: #000;
+    box-shadow: 0 0 20px #ffffff;
 }
 
-/* about page */
+/* About page */
 .page-section {
     margin-top: 150px;
     padding: 40px 80px;
@@ -134,14 +135,14 @@ body {
 
 .section-title {
     font-size: 42px;
-    color: #00a8ff;
-    text-shadow: 0 0 15px #00a8ff;
+    color: #ffffff;
+    text-shadow: 0 0 15px #ffffff;
     margin-bottom: 25px;
 }
 
 .section-text {
     font-size: 18px;
-    color: #d8ecff;
+    color: #ffffff;
     margin-bottom: 25px;
     line-height: 1.7;
 }
@@ -149,8 +150,8 @@ body {
 .sub-title {
     margin-top: 30px;
     font-size: 28px;
-    color: #00e5ff;
-    text-shadow: 0 0 10px #00e5ff;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 .neon-list {
@@ -159,12 +160,12 @@ body {
     margin-left: 25%;
     width: 50%;
     font-size: 18px;
-    color: #e6f1ff;
+    color: #ffffff;
 }
 
 .neon-list li {
     margin-bottom: 12px;
-    text-shadow: 0 0 10px #009bdc;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 /* SERVICES GRID */
@@ -177,30 +178,30 @@ body {
 
 .service-card {
     background: rgba(10, 10, 10, 0.7);
-    border: 2px solid #00a8ff;
+    border: 2px solid #ffffff;
     border-radius: 15px;
     padding: 25px;
     text-align: center;
     transition: 0.4s ease;
-    box-shadow: 0 0 10px #009bdc;
+    box-shadow: 0 0 10px #ffffff;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 25px #00e5ff;
-    border-color: #00e5ff;
+    box-shadow: 0 0 25px #ffffff;
+    border-color: #ffffff;
 }
 
 .service-card h3 {
     font-size: 22px;
-    color: #00e5ff;
+    color: #ffffff;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px #00e5ff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 .service-card p {
     font-size: 16px;
-    color: #d8ecff;
+    color: #ffffff;
     line-height: 1.5;
 }
 
@@ -213,40 +214,41 @@ body {
 }
 
 .pricing-card {
-    background: rgba(10, 10, 10, 0.7);
-    border: 2px solid #00a8ff;
+    background: rgba(10,10,10,0.7);
+    border: 2px solid #ffffff;
     border-radius: 15px;
     padding: 25px;
     text-align: center;
     transition: 0.4s ease;
-    box-shadow: 0 0 15px #009bdc;
+    box-shadow: 0 0 15px #ffffff;
 }
 
 .pricing-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 25px #00e5ff;
-    border-color: #00e5ff;
+    box-shadow: 0 0 25px #ffffff;
+    border-color: #ffffff;
 }
 
 .pricing-card h3 {
     font-size: 22px;
     margin-bottom: 10px;
-    color: #00e5ff;
-    text-shadow: 0 0 10px #00e5ff;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 .price {
     font-size: 26px;
     font-weight: 800;
     margin-bottom: 12px;
-    color: #00a8ff;
-    text-shadow: 0 0 10px #00a8ff;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 .best-value {
-    border-color: #00ffea;
-    box-shadow: 0 0 25px #00ffea;
+    border-color: #ffffff;
+    box-shadow: 0 0 25px #ffffff;
 }
+
 /* PORTFOLIO GRID */
 .portfolio-grid {
     margin-top: 40px;
@@ -256,32 +258,33 @@ body {
 }
 
 .project-card {
-    background: rgba(10, 10, 10, 0.7);
-    border: 2px solid #00a8ff;
+    background: rgba(10,10,10,0.7);
+    border: 2px solid #ffffff;
     border-radius: 15px;
     padding: 25px;
     text-align: center;
     transition: 0.4s ease;
-    box-shadow: 0 0 12px #009bdc;
+    box-shadow: 0 0 12px #ffffff;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    border-color: #00e5ff;
-    box-shadow: 0 0 25px #00e5ff;
+    border-color: #ffffff;
+    box-shadow: 0 0 25px #ffffff;
 }
 
 .project-card h3 {
     font-size: 22px;
-    color: #00e5ff;
-    text-shadow: 0 0 10px #00e5ff;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
     margin-bottom: 10px;
 }
 
 .project-card p {
-    color: #d8ecff;
+    color: #ffffff;
     font-size: 16px;
 }
+
 /* CONTACT FORM */
 .contact-container {
     margin-top: 40px;
@@ -292,16 +295,16 @@ body {
 }
 
 .contact-form {
-    background: rgba(10, 10, 10, 0.7);
+    background: rgba(10,10,10,0.7);
     padding: 30px;
     border-radius: 15px;
-    border: 2px solid #00a8ff;
-    box-shadow: 0 0 20px #009bdc;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 20px #ffffff;
 }
 
 .contact-form label {
     font-size: 16px;
-    color: #00e5ff;
+    color: #ffffff;
     margin-top: 15px;
 }
 
@@ -311,9 +314,9 @@ body {
     padding: 12px;
     margin-top: 5px;
     border-radius: 8px;
-    border: 2px solid #00a8ff;
+    border: 2px solid #ffffff;
     background: rgba(5,5,5,0.8);
-    color: #e6f1ff;
+    color: #ffffff;
     font-size: 15px;
     outline: none;
     transition: 0.3s ease;
@@ -321,47 +324,18 @@ body {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #00e5ff;
-    box-shadow: 0 0 15px #00e5ff;
-}
-
-.contact-info {
-    padding: 20px;
+    border-color: #ffffff;
+    box-shadow: 0 0 15px #ffffff;
 }
 
 .contact-info p {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #d8ecff;
-}
-.contact-form label {
-    font-size: 18px;
-    color: #00e5ff;
-    margin-top: 15px;
-    display: block;
+    color: #ffffff;
 }
 
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 5px;
-    border-radius: 8px;
-    border: 2px solid #00a8ff;
-    background: rgba(5,5,5,0.8);
-    color: #e6f1ff;
-    font-size: 15px;
-    outline: none;
-    transition: 0.3s ease;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    border-color: #00e5ff;
-    box-shadow: 0 0 15px #00e5ff;
-}
-
-/*background img*/
+/* BACKGROUND IMAGE FIX */
 .some-section {
-    background: url('assets/css/img/ChatGPT Image Nov 24, 2025, 07_49_56 PM.png') no-repeat center center/cover;
+    background: url('/mnt/data/5b910c54-d022-4d08-9318-fbd43230340d.png') 
+    no-repeat center center/cover;
 }
