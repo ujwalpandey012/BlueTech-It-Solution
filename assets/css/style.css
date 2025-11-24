@@ -167,4 +167,40 @@ body {
     text-shadow: 0 0 10px #009bdc;
 }
 
+/* SERVICES GRID */
+.services-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.service-card {
+    background: rgba(10, 10, 10, 0.7);
+    border: 2px solid #00a8ff;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.4s ease;
+    box-shadow: 0 0 10px #009bdc;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px #00e5ff;
+    border-color: #00e5ff;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    color: #00e5ff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #00e5ff;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #d8ecff;
+    line-height: 1.5;
+}
 
