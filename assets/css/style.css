@@ -1,1 +1,127 @@
+/* IMPORT FUTURISTIC FONT */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+
+/* GLOBAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #050505;
+    font-family: 'Orbitron', sans-serif;
+    color: #e6f1ff;
+    overflow-x: hidden;
+}
+
+/* FLOATING NEON NAVBAR */
+.neon-nav {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background: rgba(10, 10, 10, 0.6);
+    backdrop-filter: blur(12px);
+    padding: 15px 30px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid #00a8ff;
+    box-shadow: 0 0 15px #00a8ff;
+    z-index: 1000;
+    animation: neon-glow 3s infinite ease-in-out;
+}
+
+@keyframes neon-glow {
+    0% { box-shadow: 0 0 8px #00a8ff; }
+    50% { box-shadow: 0 0 20px #00e5ff; }
+    100% { box-shadow: 0 0 8px #00a8ff; }
+}
+
+.neon-nav nav a {
+    color: #e6f1ff;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.neon-nav nav a:hover {
+    color: #00e5ff;
+    text-shadow: 0 0 12px #00e5ff;
+}
+
+/* LOGO */
+.logo {
+    color: #00a8ff;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 0 0 10px #00a8ff;
+}
+
+/* HERO SECTION */
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* CANVAS FOR GLOBE */
+#globeCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* HERO CONTENT */
+.hero-content {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+.neon-text {
+    font-size: 60px;
+    font-weight: 800;
+    color: #00a8ff;
+    text-shadow: 0 0 20px #00a8ff, 0 0 40px #00e5ff;
+}
+
+.hero-tagline {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #e6f1ff;
+    text-shadow: 0 0 10px #009bdc;
+}
+
+/* NEON BUTTON */
+.neon-button {
+    margin-top: 25px;
+    padding: 12px 35px;
+    border: 2px solid #00a8ff;
+    border-radius: 8px;
+    color: #e6f1ff;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px #00a8ff;
+}
+
+.neon-button:hover {
+    background: #00a8ff;
+    box-shadow: 0 0 20px #00e5ff;
+}
 
