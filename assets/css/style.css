@@ -125,3 +125,46 @@ body {
     box-shadow: 0 0 20px #00e5ff;
 }
 
+/* about page */
+.page-section {
+    margin-top: 150px;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 42px;
+    color: #00a8ff;
+    text-shadow: 0 0 15px #00a8ff;
+    margin-bottom: 25px;
+}
+
+.section-text {
+    font-size: 18px;
+    color: #d8ecff;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.sub-title {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #00e5ff;
+    text-shadow: 0 0 10px #00e5ff;
+}
+
+.neon-list {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 50%;
+    font-size: 18px;
+    color: #e6f1ff;
+}
+
+.neon-list li {
+    margin-bottom: 12px;
+    text-shadow: 0 0 10px #009bdc;
+}
+
+
