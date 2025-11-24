@@ -204,3 +204,133 @@ body {
     line-height: 1.5;
 }
 
+/* PRICING GRID */
+.pricing-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.pricing-card {
+    background: rgba(10, 10, 10, 0.7);
+    border: 2px solid #00a8ff;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.4s ease;
+    box-shadow: 0 0 15px #009bdc;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px #00e5ff;
+    border-color: #00e5ff;
+}
+
+.pricing-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #00e5ff;
+    text-shadow: 0 0 10px #00e5ff;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #00a8ff;
+    text-shadow: 0 0 10px #00a8ff;
+}
+
+.best-value {
+    border-color: #00ffea;
+    box-shadow: 0 0 25px #00ffea;
+}
+/* PORTFOLIO GRID */
+.portfolio-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: rgba(10, 10, 10, 0.7);
+    border: 2px solid #00a8ff;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.4s ease;
+    box-shadow: 0 0 12px #009bdc;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #00e5ff;
+    box-shadow: 0 0 25px #00e5ff;
+}
+
+.project-card h3 {
+    font-size: 22px;
+    color: #00e5ff;
+    text-shadow: 0 0 10px #00e5ff;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #d8ecff;
+    font-size: 16px;
+}
+/* CONTACT FORM */
+.contact-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.contact-form {
+    background: rgba(10, 10, 10, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #00a8ff;
+    box-shadow: 0 0 20px #009bdc;
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #00e5ff;
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid #00a8ff;
+    background: rgba(5,5,5,0.8);
+    color: #e6f1ff;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00e5ff;
+    box-shadow: 0 0 15px #00e5ff;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #d8ecff;
+}
