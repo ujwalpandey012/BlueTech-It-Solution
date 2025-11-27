@@ -102,8 +102,13 @@ body::before {
 }
 
 .logo-img {
-    height: 38px;
-    filter: drop-shadow(0 0 5px #00c8ff);
+    width: 60px;             
+    height: 60px;             
+    border-radius: 50%;       
+    object-fit: cover;        
+    border: 2px solid #4cc3ff; 
+    box-shadow: 0 0 12px #4cc3ff; 
+    background: #00263e;     
 }
 
 .nav-links a {
